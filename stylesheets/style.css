@@ -1,0 +1,524 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	direction:ltr;
+}
+
+#wrap
+{
+	width:520px;
+	height:793px;
+	background-color:#FFF200;
+}
+/* Top Menu */
+#menu
+{
+	text-align:center;
+	width:520px;
+	height:150px;
+	background-image:url(../images/menu_bg.jpg);
+}
+
+/* Content Div */
+#content
+{
+	width:520px;
+	height:643px;
+	background-image:url(../images/content_bg.jpg);
+}
+
+#update
+{
+	position:absolute;
+	width:153px;
+	height:73px;
+	top:79px;
+	left:350px;
+	background-image:url(../images/update.jpg);
+	cursor:hand; cursor:pointer;
+}
+
+#update:hover
+{
+	background-image:url(../images/update_off.jpg);
+}
+
+#volunteer
+{
+	position:absolute;
+	width:152px;
+	height:75px;
+	top:79px;
+	left:192px;
+	background-image:url(../images/volunteer.jpg);
+	cursor:hand; cursor:pointer;
+}
+
+#volunteer:hover
+{
+	background-image:url(../images/volunteer_off.jpg);
+}
+
+#donate
+{
+	position:absolute;
+	width:151px;
+	height:73px;
+	top:79px;
+	left:34px;
+	background-image:url(../images/donate.jpg);
+	cursor:hand; cursor:pointer;
+}
+
+#donate:hover
+{
+	background-image:url(../images/donate_off.jpg);
+}
+
+/* Update form */
+
+#content_update
+{
+	width:520px;
+	height:577px;
+	background-image:url(../images/update_bg2.jpg);
+}
+
+#update_form_news
+{
+	position:absolute;
+	width:188px;
+	height:22px;
+	left:138px;
+	top:274px;
+	border:none;
+	background:none;
+	padding:2px;
+}
+
+#sign_news
+{
+	position:absolute;
+	width:83px;
+	height:32px;
+	left:51px;
+	top:271px;
+	background-image:url(../images/sign_off.jpg);
+	cursor:hand; cursor:pointer;
+	border:none;
+}
+
+#sign_news:hover
+{
+	background-image:url(../images/sign_on.jpg);
+}
+
+#area_imid
+{
+	position:absolute;
+	width:160px;
+	height:29px;
+	left:170px;
+	top:461px;
+	direction:rtl;
+	text-align:right;
+}
+
+#update_form_imid
+{
+	position:absolute;
+	width:187px;
+	height:22px;
+	left:141px;
+	top:526px;
+	border:none;
+	background:none;
+	padding:2px;
+	z-index:104;
+}
+
+#sign_imid
+{
+	position:absolute;
+	width:83px;
+	height:32px;
+	left:51px;
+	top:522px;
+	background-image:url(../images/sign_off.jpg);
+	cursor:hand; cursor:pointer;
+	border:none;
+	z-index:105;	
+}
+
+#sign_imid:hover
+{
+	background-image:url(../images/sign_on.jpg);
+}
+
+#update_table_bg
+{
+	position:absolute;
+	width:351px;
+	height:173px;
+	left:46px;
+	top:519px;
+	background-image:url(../images/area_table_bg.jpg);
+	z-index:100;
+}
+
+#sms
+{
+	position:absolute;
+	width:276px;
+	height:48px;
+	left:51px;
+	top:574px;
+	font-size:12px;
+	direction:rtl;
+	text-align:center;
+	z-index:101;	
+}
+
+#big
+{
+	font-size:14px;
+	font-weight:bold;
+}
+
+#facebook
+{
+	position:absolute;
+	width:276px;
+	height:/px;
+	left:51px;
+	top:624px;
+	font-size:12px;
+	direction:rtl;
+	text-align:center;
+	z-index:102;	
+}
+
+#twitter
+{
+	position:absolute;
+	width:200px;
+	height:24px;
+	left:130px;
+	top:654px;
+	font-size:12px;
+	z-index:103;	
+}
+
+/* volunteer form */
+
+#volunteer_bg
+{
+	width:520px;
+	height:556px;
+	background-image:url(../images/volunteer_bg.jpg);
+}
+
+#formName
+{
+	position:absolute;
+	width:198px;
+	height:22px;
+	left:180px;
+	top:252px;
+	border:none;
+	background:none;
+	padding:2px;
+}
+
+#formEmail
+{
+	position:absolute;
+	width:198px;
+	height:22px;
+	left:180px;
+	top:287px;
+	border:none;
+	background:none;
+	padding:2px;
+}
+
+#formPhone
+{
+	position:absolute;
+	width:198px;
+	height:22px;
+	left:180px;
+	top:322px;
+	border:none;
+	background:none;
+	padding:2px;
+}
+
+#area
+{
+	position:absolute;
+	width:170px;
+	height:22px;
+	left:180px;
+	top:374px;
+	direction:rtl;
+	text-align:right;
+}
+
+#otherArea
+{
+	position:absolute;
+	width:150px;
+	height:18px;
+	left:20px;
+	top:369px;
+	border:2px solid #f1ca7e;
+	background-color:none;
+}
+
+#helpEverything
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:409px;
+	left:326px;
+}
+
+#helpDrive
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:429px;
+	left:326px;
+}
+
+#helpFood
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:447px;
+	left:326px;
+}
+
+#helpEquipment
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:466px;
+	left:326px;
+}
+
+#helpMaintenance
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:485px;
+	left:326px;
+}
+
+#helpConsultation
+{
+	position:absolute;
+	width:20px;
+	height:20px;
+	top:503px;
+	left:326px;
+}
+
+#helpDetails
+{
+	position:absolute;
+	width:246px;
+	height:86px;
+	top:558px;
+	left:180px;
+	background-color:#d7d6d6;
+	border:none;
+	z-index:10;
+}
+
+#sendvolunteer
+{
+	position:absolute;
+	width:83px;
+	height:32px;
+	top:618px;
+	left:87px;
+	background-image:url(../images/sign_off.jpg);
+	cursor:hand; cursor:pointer;
+}
+
+#sendvolunteer:hover
+{
+	background-image:url(../images/sign_on.jpg);
+}
+
+/* Donate page */
+
+#donate_bg
+{
+	width:520px;
+	height:539px;
+	background-image:url(../images/donate_bg.jpg);
+}
+
+#credit
+{
+	position:absolute;
+	width:231px;
+	height:49px;
+	left:144px;
+	top:274px;
+	background-image:url(../images/credit_off.jpg);
+	cursor:hand; cursor:pointer;
+}
+
+#credit:hover
+{
+	background-image:url(../images/credit_on.jpg);
+}
+
+#give
+{
+	position:absolute;
+	width:231px;
+	height:49px;
+	left:144px;
+	top:336px;
+	background-image:url(../images/give_off.jpg);
+	cursor:hand; cursor:pointer;	
+}
+
+#give:hover
+{
+	background-image:url(../images/give_on.jpg);
+}
+
+/* Send */
+
+
+/* Class to hide divs */
+.hide
+{
+	display:none;	
+}
+
+#loader
+{
+	position:absolute;
+	width:81px;
+	height:55px;
+	left:88px;
+	top:560px;
+}
+
+.pre
+{
+	display:none;	
+}
+
+/* Links */
+
+a, a:hover, a:active
+{
+	color:#1396a5;	
+}
+
+/* Sucsses Links */
+
+#sucsses_facebook
+{
+	position:absolute;
+	width:175px;
+	height:19px;
+	left:161px;
+	top:329px;
+	display:block;
+}
+
+#sucsses_hackers
+{
+	position:absolute;
+	width:77px;
+	height:19px;
+	left:95px;
+	top:361px;
+	display:block;
+}
+
+#sucsses_update
+{
+	position:absolute;
+	width:102px;
+	height:19px;
+	left:282px;
+	top:391px;
+	display:block;
+}
+
+#sucsses_donate
+{
+	position:absolute;
+	width:110px;
+	height:19px;
+	left:273px;
+	top:422px;
+	display:block;
+}
+
+#sucsses_back
+{
+	position:absolute;
+	width:59px;
+	height:19px;
+	left:350px;
+	top:456px;
+	display:block;
+}
+
+/* Select */
+
+img{border:none;}
+
+/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+form div{position:relative;} 
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+		position:relative;
+		z-index:10;
+		width:159px !important;
+		height:29px !important;
+		line-height:29px;
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+	position:absolute;
+	bottom:0;
+	float:left;
+	left:0;
+	width:159px;
+	height:29px;
+	line-height:29px;
+	text-indent:10px;
+	background:url(../images/area_bg.jpg) no-repeat 0 0;
+	cursor:default;
+	z-index:1;
+	/*color:#000;*/
+	color:#c96809;
+	font-weight:bold;
+
+	}
